@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LKSDB" Class="barkodDbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=194.62.40.24\DATA2;Initial Catalog=LKSDB;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="LKSDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PAZ_DEPOBAZLISTOKFIYAT" Member="PAZ_DEPOBAZLISTOKFIYATs">
+    <Type Name="PAZ_DEPOBAZLISTOKFIYAT">
+      <Column Name="CODE" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="NAME" Type="System.String" DbType="VarChar(51)" CanBeNull="true" />
+      <Column Name="BIRIM" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="BARCODE" Type="System.String" DbType="VarChar(101)" CanBeNull="true" />
+      <Column Name="ALISFIYATI" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SATISFIYATI" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GATEMSTOK" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="KÜSGETSTOK" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TOPLAMSTOK" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GATEMTUTAR" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="KÜSGETTUTAR" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="GENELTUTAR" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

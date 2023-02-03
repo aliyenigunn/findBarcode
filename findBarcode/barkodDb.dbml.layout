@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="barkodDb">
+  <DataContextMoniker Name="/barkodDbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="85b036a9-6a04-4783-87eb-83ce264b799f" isExpanded="false" absoluteBounds="0.5, 0.5, 2, 0.45">
+      <DataClassMoniker Name="/barkodDbDataContext/PAZ_DEPOBAZLISTOKFIYAT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b8dc2f87-761b-4710-9243-0a9dd0433650" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
